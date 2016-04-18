@@ -13,6 +13,7 @@
 		85C2C02F1CC177DB0057308A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85C2C02E1CC177DB0057308A /* Assets.xcassets */; };
 		85C2C0321CC177DB0057308A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85C2C0301CC177DB0057308A /* LaunchScreen.storyboard */; };
 		85C2C03D1CC177DB0057308A /* CloseUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C2C03C1CC177DB0057308A /* CloseUpTests.swift */; };
+		85C2C0481CC1CCC70057308A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C2C0471CC1CCC70057308A /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		85C2C0381CC177DB0057308A /* CloseUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloseUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85C2C03C1CC177DB0057308A /* CloseUpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseUpTests.swift; sourceTree = "<group>"; };
 		85C2C03E1CC177DB0057308A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85C2C0471CC1CCC70057308A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85C2C0481CC1CCC70057308A /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +86,7 @@
 				85C2C02E1CC177DB0057308A /* Assets.xcassets */,
 				85C2C0301CC177DB0057308A /* LaunchScreen.storyboard */,
 				85C2C0331CC177DB0057308A /* Info.plist */,
+				85C2C0471CC1CCC70057308A /* CoreLocation.framework */,
 			);
 			path = CloseUp;
 			sourceTree = "<group>";
